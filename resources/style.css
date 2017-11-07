@@ -1,0 +1,63 @@
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  border: solid red 2px;
+  /*position: fixed;*/
+  flex-grow: 1;
+  width: auto;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+#log {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/*Aligns nav headings to the right*/
+.navbar {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/*Add padding for nav headings*/
+.navbar span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/*Ensures headings are correct color*/
+.navbar span a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/*Mission section of the site*/
+
+.mission {
+  justify-content: space-around;
+  width: 1200px;
+  height: 700px;
+  border: solid red 2px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  }
+
+.missbann {
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+  margin-top: 350px;
+  justify-content: center;
+}
